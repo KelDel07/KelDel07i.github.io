@@ -1,0 +1,59 @@
+---
+title: "Dashboard"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+devtools::install_github("p8105/p8105.datasets")
+library(p8105.datasets)
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Total Orders Per Aisle
+
+```{r}
+data(instacart)
+order_aisle_insta = 
+  instacart %>%
+  group_by(aisle) %>%
+  summarize(total = n()) %>%
+  arrange(desc(total)) %>%
+  filter(total > 10000) %>%
+  mutate(aisle = fct_reorder(aisle, total)) %>%
+  plot_ly(x = ~aisle, y = ~total, colors = ~aisle, type = "bar", alpha = 0.5)
+ggplotly(order_aisle_insta)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Orders by Hour of Day for Coffee Ice Cream and Pink Lady Apples
+
+```{r}
+order_hour_insta = 
+  instacart %>%
+  filter(product_name %in% c("Pink Lady Apples", "Coffee Ice Cream")) %>%
+  group_by(product_name, order_dow) %>%
+  plot_ly(y = ~order_hour_of_day, color = ~product_name, type = "box", colors = "viridis")
+ggplotly(order_hour_insta)
+```
+
+### Orders by Day by Hour of Day
+
+```{r}
+order_day_insta = 
+  instacart %>%
+  filter(product_name %in% c("Pink Lady Apples", "Coffee Ice Cream")) %>%
+  group_by(product_name, order_dow) %>%
+  plot_ly(x = ~order_hour_of_day, y = ~order_dow, color = ~product_name, type = "histogram")
+ggplotly(order_day_insta)
+```

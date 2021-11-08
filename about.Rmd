@@ -1,0 +1,17 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## About Kelvin Delali Tamakloe
+
+Kelvin is a Ghanaian-trained physician with clinical and research experience across both publicly and privately owned health facilities in Ghana. He is currently in the second year of a Master's in Public Health Program at the Columbia University Mailman School of Public Health with a concentration in Epidemiology. His current academic interests include maternal and chold health and data science.
+
+Kelvin enjoys the thrills of escapism and actively seeks these thrill through novels, movies and video games!
+
+<img src="images/image_1.jpg" style="width:75%">
+
+<img src="Images/image_2.jpeg" style="width:75%">
