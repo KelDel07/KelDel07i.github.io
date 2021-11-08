@@ -6,6 +6,7 @@ output:
     toc_float: true
 ---
 
+## Welcome!
 
 ![](/Users/KelDel07/Documents/Columbia/Lecture Materials/3 - Fall 2021/Data Science I/KelDel07i.github.io/Images/PDE.gif)
 

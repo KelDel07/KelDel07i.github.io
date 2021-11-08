@@ -7,8 +7,6 @@ output:
 ---
 
 
-Hello and welcome to Kelvin Tamakloe's website! Below you will find his resume!
-
 ## Education
 
 **COLUMBIA UNIVERSITY MAILMAN SCHOOL OF PUBLIC HEALTH, New York, NY**
