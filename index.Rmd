@@ -1,5 +1,5 @@
 ---
-title: "Kelvin Tamakloe's Resume"
+title: "Kelvin Tamakloe's website"
 output: 
   html_document:
     toc: true
@@ -7,49 +7,6 @@ output:
 ---
 
 
-Hello and welcome to Kelvin Tamakloe's website! Below you will find his resume!
+![](/Users/KelDel07/Documents/Columbia/Lecture Materials/3 - Fall 2021/Data Science I/KelDel07i.github.io/Images/PDE.gif)
 
-## Education
-
-**COLUMBIA UNIVERSITY MAILMAN SCHOOL OF PUBLIC HEALTH, New York, NY**
-
-Master of Public Health (MPH), Epidemiology Track, May 2022
-
-**UNIVERSITY OF GHANA MEDICAL SCHOOL, Accra, Ghana**
-
-Bachelor of Medicine, Bachelor of Surgery (MBChB), Nov 2015
-
-**UNIVERSITY OF GHANA, Accra, Ghana**
-
-Bachelor of Science, Medical Sciences, Jun 2012
-
-
-## Work Experience  
-**COLUMBIA UNIVERSITY, MAILMAN SCHOOL OF PUBLIC HEALTH, New York Sep 2021 – ongoing**
-
-_Teaching Assistant, Research Methods and Applications – Quantitative Methods_
-
-• Responsibilities include teaching course modules, piloting and grading student assignments, and facilitating communication between faculty and students.
-
-**SINEL SPECIALIST HOSPITAL, Tema - Ghana Aug 2018 – Aug 2021**
-
-_Medical Officer_
-
-• Led a team of 10 nurses and midwives to provide annual breast and cervical cancer screening to more than 500 patients.
-
-• Achieved a 75% reduction in post-operative wound infections from 2019 – 2020 through recommendations following a review of pre, peri and post-operative protocols.
-
-**TEMA GENERAL HOSPITAL, Tema - Ghana Jun 2017 – May 2018**
-
-_Senior House Officer_
-
-• Designed a guideline protocol for the safe initiation and monitoring of induced labour in expectant mothers resulting in no recorded maternal morbidity or mortality within the first 4 months after adoption of the guidelines
-
-
-Here's back to the [index](index.html) page
-
-## Contacts
-
-[Github](https://github.com/KelDel07)
-[LinkedIn](https://www.linkedin.com/in/dela-dela-116687185/) 
-
+Curious to know more [about me](about.html) ?
