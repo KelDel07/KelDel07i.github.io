@@ -1,18 +1,16 @@
 ---
 title: "Dashboard"
-output:
+output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
-    source_code: embed
 ---
 
 ```{r setup, include=FALSE}
-library(flexdashboard)
 library(tidyverse)
-devtools::install_github("p8105/p8105.datasets")
 library(p8105.datasets)
 library(plotly)
+library(flexdashboard)
 ```
 
 Column {data-width=650}
